@@ -16,3 +16,5 @@ for _, row in df_sorted.iterrows():
         'speed':row['speed']
     }
     r.hset(device_id, mapping=data)
+
+print("Done!!!")
